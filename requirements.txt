@@ -1,0 +1,76 @@
+accelerate==0.29.3
+annotated-types==0.7.0
+appdirs==1.4.4
+asttokens==2.4.1
+certifi @ file:///croot/certifi_1707229174982/work/certifi
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+colorama==0.4.6
+contourpy==1.2.1
+cycler==0.12.1
+deepspeed==0.14.0
+docker-pycreds==0.4.0
+einops==0.7.0
+executing==2.0.1
+filelock @ file:///croot/filelock_1700591183607/work
+fonttools==4.51.0
+fsspec==2024.3.1
+ftfy==6.2.0
+gitdb==4.0.11
+GitPython==3.1.43
+gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645455533097/work
+hjson==3.1.0
+huggingface-hub==0.22.2
+icecream==2.1.3
+idna @ file:///croot/idna_1666125576474/work
+Jinja2 @ file:///croot/jinja2_1706733616596/work
+joblib==1.4.0
+kiwisolver==1.4.5
+MarkupSafe @ file:///croot/markupsafe_1704205993651/work
+matplotlib==3.8.4
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+mpmath @ file:///croot/mpmath_1690848262763/work
+networkx @ file:///croot/networkx_1690561992265/work
+ninja==1.11.1.1
+numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp310-cp310-linux_x86_64.whl#sha256=d8cd837ed43e87f77e6efaa08e8de927ca030a1c9c5d04624432d6fb9a74a5ee
+nvidia-ml-py==12.555.43
+packaging==24.0
+peft==0.10.0
+pillow @ file:///croot/pillow_1707233021655/work
+protobuf==4.25.3
+psutil==5.9.8
+py-cpuinfo==9.0.0
+pydantic==2.7.4
+pydantic_core==2.18.4
+Pygments==2.17.2
+pynvml==11.5.0
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+PyYAML @ file:///croot/pyyaml_1698096049011/work
+regex==2024.4.16
+requests @ file:///croot/requests_1707355572290/work
+safetensors==0.4.3
+scikit-learn==1.4.2
+scipy==1.13.0
+sentencepiece==0.2.0
+sentry-sdk==1.45.0
+setproctitle==1.3.3
+six==1.16.0
+smmap==5.0.1
+sympy @ file:///croot/sympy_1701397643339/work
+threadpoolctl==3.4.0
+tiktoken==0.6.0
+tokenizers==0.15.2
+torch==2.2.2
+torchaudio==2.2.2
+torchvision==0.17.2
+tqdm==4.66.2
+transformers==4.37.2
+triton==2.2.0
+typing_extensions @ file:///croot/typing_extensions_1705599297034/work
+urllib3 @ file:///croot/urllib3_1700840488771/work
+wandb==0.16.6
+wcwidth==0.2.13

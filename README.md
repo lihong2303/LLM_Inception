@@ -8,4 +8,13 @@ This is the offical implementation of "The Labyrinth of Links: Navigating the As
 
 ## Overview
 
-![Alt Text](./Images/teaser_figure.pdf)
+![Alt Text](./Images/teaser_figure.png)
+
+In this paper, we propose a ...
+
+## Dataset
+
+We reconstructed two association datasets based on adjective and verb concepts, for details on how to download the dataset and the structure please refer to [Data](./data/Data.md).
+
+## Installation
+For python environmemt, see [requirements.txt](requirements.txt)
