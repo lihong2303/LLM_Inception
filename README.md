@@ -9,7 +9,7 @@ This is the offical implementation of "The Labyrinth of Links: Navigating the As
 
 ![Alt Text](./Images/teaser_figure.png)
 
-In this paper, we propose a ...
+In this paper, we first devise a standard association benchmark based on adjective and verb association semantic concepts. Instead of costly data annotation and organization, we propose a convenient annotation-free reconstruction method transforming the general dataset for our association tasks. Furthermore, we comprehensively investigate the MLLMs’ ability and potential for associative ability.
 
 ## Dataset
 
@@ -17,3 +17,6 @@ We reconstructed two association datasets based on adjective and verb concepts, 
 
 ## Installation
 For python environmemt, see [requirements.txt](requirements.txt)
+
+## Evaluation
+
