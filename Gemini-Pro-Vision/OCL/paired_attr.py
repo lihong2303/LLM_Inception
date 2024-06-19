@@ -30,7 +30,7 @@ def result(text):
   text = text.replace('?', '  *')
   return text
 
-GOOGLE_API_KEY="AIzaSyBxFBvM-2fuK0-UnMIG9MCj_PyIGPibaJ8"
+GOOGLE_API_KEY="your api key here"
 
 genai.configure(api_key= f"{GOOGLE_API_KEY}", transport="rest")
 
@@ -74,7 +74,7 @@ def update_memory(answer, obj):
             memory.pop(attr)
 
 
-def oragnize_memory(mode):
+def organize_memory(mode):
     if mode == 'strmem':
         structured_memory = {}
         for attr, object in memory.items():
@@ -105,7 +105,7 @@ if __name__ == "__main__":
     for paired_attr in paired_attrs:
         logging.info(f"Paired_Attr: {attr_name[paired_attr[0]]} & {attr_name[paired_attr[1]]} BEGIN")
         step = []
-        for epoch in range(5):  
+        for epoch in range(100):  
             data = data_loader("./../../data/OCL_test_pics", paired_attr)
             #attr = random.choice(attr_name)
             memory = {}
@@ -159,10 +159,10 @@ if __name__ == "__main__":
                 correct_ans = 0
                 try:
                     if dir: 
-                        response = model.generate_content(get_payload(oragnize_memory(args.mode), query_image_encoded, correct_image_encoded, false_image_encoded), stream=False)
+                        response = model.generate_content(get_payload(organize_memory(args.mode), query_image_encoded, correct_image_encoded, false_image_encoded), stream=False)
                         correct_ans = 1
                     else:
-                        response = model.generate_content(get_payload(oragnize_memory(args.mode), query_image_encoded, false_image_encoded, correct_image_encoded), stream=False)
+                        response = model.generate_content(get_payload(organize_memory(args.mode), query_image_encoded, false_image_encoded, correct_image_encoded), stream=False)
                         correct_ans = 2
                     response.resolve()
                 except BlockedPromptException:

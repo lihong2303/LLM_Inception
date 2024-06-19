@@ -69,7 +69,7 @@ def update_memory(answer, obj):
             memory.pop(attr)
     
     
-def oragnize_memory(mode):
+def organize_memory(mode):
     if mode == "strmem":
         structured_memory = {}
         for attr, object in memory.items():
@@ -134,10 +134,10 @@ if __name__ == "__main__":
                 correct_ans = 0
                 try:
                     if dir: 
-                        response = model.generate_content(get_payload(oragnize_memory(args.mode), query_image_encoded, correct_image_encoded, false_image_encoded), stream=False)
+                        response = model.generate_content(get_payload(organize_memory(args.mode), query_image_encoded, correct_image_encoded, false_image_encoded), stream=False)
                         correct_ans = 1
                     else:
-                        response = model.generate_content(get_payload(oragnize_memory(args.mode), query_image_encoded, false_image_encoded, correct_image_encoded), stream=False)
+                        response = model.generate_content(get_payload(organize_memory(args.mode), query_image_encoded, false_image_encoded, correct_image_encoded), stream=False)
                         correct_ans = 2
                     response.resolve()
                     answer = find_number_after_image(result(response.text))   
