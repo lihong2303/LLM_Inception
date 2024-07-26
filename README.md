@@ -1,8 +1,8 @@
-# MLLMs_Associative
+# MLLMs_Association
 
 ## The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs
 
-This is the offical implementation of "The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs".
+This is the official implementation of "The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs".
 [Hong Li](https://github.com/lihong2303), [Nanxi Li](https://github.com/andylinx), Yuanjie Chen,Jianbin Zhu, [Yong-Lu Li](https://dirtyharrylyl.github.io).
 
 ## Overview
@@ -16,7 +16,7 @@ In this paper, we first devise a standard association benchmark based on adjecti
 We reconstructed two association datasets based on adjective and verb concepts, for details on how to download the dataset and the structure please refer to [Data](./data/Data.md).
 
 ## Installation
-For python environmemt, see [requirements.txt](requirements.txt)
+For Python environment, see [requirements.txt](requirements.txt)
 
 ## Evaluation
 
