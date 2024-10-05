@@ -1,7 +1,7 @@
 # The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs
 
 This is the official implementation of "The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs".
-[Hong Li](https://github.com/lihong2303), [Nanxi Li](https://github.com/andylinx), Yuanjie Chen,Jianbin Zhu, [Yong-Lu Li](https://dirtyharrylyl.github.io).
+[Hong Li](https://github.com/lihong2303), [Nanxi Li](https://github.com/andylinx), [Yuanjie Chen](https://github.com/ccmoony),[Jianbin Zhu](https://github.com/Peebinens), [Qinlu Guo](https://github.com/ggsdeath), [Cewu Lu](https://www.mvig.org), [Yong-Lu Li](https://dirtyharrylyl.github.io).
 
 ## Overview
 
