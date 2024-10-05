@@ -16,5 +16,24 @@ We reconstructed two association datasets based on adjective and verb concepts, 
 ## Installation
 For Python environment, see [requirements.txt](requirements.txt)
 
-## Evaluation
+## Usage
+
+
+
+## Reference
+```
+@misc{li2024labyrinthlinksnavigatingassociative,
+      title={The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs}, 
+      author={Hong Li and Nanxi Li and Yuanjie Chen and Jianbin Zhu and Qinlu Guo and Cewu Lu and Yong-Lu Li},
+      year={2024},
+      eprint={2410.01417},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.01417}, 
+}
+```
+
+## Acknowledgement
+
+We extend our gratitude to the prior outstanding work in object concept learning, particularly [OCL](https://github.com/silicx/ObjectConceptLearning) and [Pangea](https://github.com/DirtyHarryLYL/Sandwich), which serve as the foundation for our research.
 
