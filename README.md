@@ -22,14 +22,11 @@ For Python environment, see [requirements.txt](requirements.txt)
 
 ## Reference
 ```
-@misc{li2024labyrinthlinksnavigatingassociative,
-      title={The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs}, 
-      author={Hong Li and Nanxi Li and Yuanjie Chen and Jianbin Zhu and Qinlu Guo and Cewu Lu and Yong-Lu Li},
-      year={2024},
-      eprint={2410.01417},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2410.01417}, 
+@article{li2024labyrinth,
+  title={The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs},
+  author={Li, Hong and Li, Nanxi and Chen, Yuanjie and Zhu, Jianbin and Guo, Qinlu and Lu, Cewu and Li, Yong-Lu},
+  journal={arXiv preprint arXiv:2410.01417},
+  year={2024}
 }
 ```
 
