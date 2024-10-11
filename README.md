@@ -44,18 +44,37 @@ cd LLM_Inception
 
 2. Create `conda` environment and install dependencies.
 ```shell
-conda create -n llm_inception python=3.9
+conda create -n llm_inception python=3.10
 conda activate llm_inception
 
 # install PyTorch, take our version for example
-conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 cudatoolkit=11.8 -c pytorch
 
 pip install -r requirements.txt
 ```
 
-3. Running
+3. Eval Single-step Association with:
 ```shell
-# todo
+python eval_singlestep.py \
+    --data_root Data \
+    --data_type pangea_data \
+    --model_type "mplug3" \
+    --prompt_type "task_instruction_nomem" \
+    --attr_constraint "cut" \
+    --expt_dir "logs" \
+    --few_shot_num 3
+```
+
+4. Eval Multi-step Association with:
+```shell
+python eval_multistep.py \
+    --data_root Data \
+    --data_type ocl_attr_data \
+    --model_type "llava-onevision" \
+    --prompt_type "task_instruction" \
+    --attr_constraint "furry,metal" \
+    --expt_dir "logs" \
+    --few_shot_num 3
 ```
 
 
