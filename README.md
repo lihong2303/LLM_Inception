@@ -33,19 +33,44 @@
 <img src="./Images/teaser_figure.png" width="99%" alt="LLM_Inception Teaser">
 </div>
 
+
+## Get Started
+
+1. Clone the repository
+```shell
+git clone https://github.com/lihong2303/LLM_Inception.git
+cd LLM_Inception
+```
+
+2. Create `conda` environment and install dependencies.
+```shell
+conda create -n llm_inception python=3.9
+conda activate llm_inception
+
+# install PyTorch, take our version for example
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+
+pip install -r requirements.txt
+```
+
+3. Running
+```shell
+# todo
+```
+
+
+
 ## Dataset
 
 We reconstructed two association datasets based on adjective and verb concepts, for details on how to download the dataset and the structure please refer to [Data](./data/Data.md).
 
-## Installation
-For Python environment, see [requirements.txt](requirements.txt)
 
 ## Usage
 
 
 
 ## Reference
-```
+```bibtex
 @article{li2024labyrinth,
   title={The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs},
   author={Li, Hong and Li, Nanxi and Chen, Yuanjie and Zhu, Jianbin and Guo, Qinlu and Lu, Cewu and Li, Yong-Lu},
