@@ -84,10 +84,6 @@ python eval_multistep.py \
 We reconstructed two association datasets based on adjective and verb concepts, for details on how to download the dataset and the structure please refer to [Data](./data/Data.md).
 
 
-## Usage
-
-
-
 ## Reference
 ```bibtex
 @article{li2024labyrinth,
