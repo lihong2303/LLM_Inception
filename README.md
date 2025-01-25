@@ -3,9 +3,9 @@
  The Labyrinth of Links: Navigating the Associative Maze of Multi-modal LLMs
 </h2>
 
-<div align="center" margin-bottom="6em">
+<h3 align="center">
  ICLR 2025
-</div>
+</h3>
 &nbsp;
 
 <div align="center" margin-bottom="6em">
